@@ -10,6 +10,11 @@
     --border-radius: 1.2rem;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-family: "Poppins", sans-serif;
     font-size: 62.5%;
@@ -60,8 +65,11 @@ a {
 }
 
 .hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 90px);
     background: #e6f0ff;
 }
 
@@ -105,12 +113,8 @@ a {
 }
 
 /* Hero */
-.hero {
-    padding-top: 130px;
-}
-
 .hero .info {
-    width: 50.36%;
+    width: 51%;
 }
 
 .hero .sub-title {
