@@ -165,19 +165,20 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 96px;
+    margin-top: 70px;
 }
 
-.client .box-img {
+.client .images a {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    width: 20.4rem;
-    height: 9.1rem;
+    height: 90px;
+    padding: 0 42px;
+
+}
+
+.client .images a:hover {
     border-radius: 1.2rem;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-    background: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
 }
 
 /* =========== Guides =========== */
